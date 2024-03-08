@@ -3,7 +3,6 @@ package tabuladoNotas;
 import java.util.Scanner;
 
 public class TabuladoNotas {
-
     // variables de clase
     public static Scanner sc = new Scanner(System.in);
     public static int seleccion;
@@ -12,6 +11,7 @@ public class TabuladoNotas {
     public static String[] cMateria = new String[2];
     public static Object[][] fMateria;
     private static int contadorM;
+	public static char num = 'a';
 
     public static void main(String[] args) {
 
